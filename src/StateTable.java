@@ -189,5 +189,18 @@ public class StateTable {
         return null;
     }
 
+    /**
+     * @return number of input bits
+     */
+    public int getNumInputs(){
+        return this.numInputs;
+    }
+
+    /**
+     * @return list of every possible valid input
+     */
+    public String[] getValid_input(){
+        return this.valid_input;
+    }
 
 }
