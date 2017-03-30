@@ -1,0 +1,17 @@
+numinputs=2
+numstates=12
+states=A B C D E F G H J K L M
+outputs=0 0 0 1 0 0 0 1 0 1 0 1
+table=
+A B C - 
+K B - H
+F - C M
+D E J -
+A E - M
+F L J -
+D G - H
+- G J H
+F - J H
+K L C -
+A L - H
+- G C M

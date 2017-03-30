@@ -184,8 +184,9 @@ public class StateTable {
 
     public String[][] getInitialPartition(){
         for(String state: this.table[0]){
-            return null;
+
         }
+        return null;
     }
 
 
