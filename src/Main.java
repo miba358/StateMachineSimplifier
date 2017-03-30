@@ -11,6 +11,9 @@ public class Main {
         StateTable st = new StateTable(file);
 
         System.out.print(st.toString());
+
+        System.out.println(st.getNextState("A","10"));
+        System.out.println(st.getOutput("M"));
     }
 
 }
